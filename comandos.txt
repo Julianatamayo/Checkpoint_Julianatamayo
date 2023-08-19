@@ -1,0 +1,17 @@
+   33  git init
+   34  touch main.js index.html
+   35  git add.
+   36  git commit -m 'commit 01 de JulianaTamayo'
+   37  git remote add origin https://github.com/Julianatamayo/Checkpoint_Julianatamayo.git  
+   38  git push -u origin main
+   39  git branch feature
+   40  git switch feature
+   41  mkdir Hardware Software SeguridadInformatica
+   42  touch Hardware/resumen.txt  SeguridadInformatica/resumen.txt Software/resumen.txt
+   43  git add .
+   44  git commit -m 'commit 02 de JulianaTamayo'
+   45  git switch main
+   46  mv index.html resumenSoftware.txt
+   47  mv main.js  resumenHardware.txt
+   48  touch comandos.txt
+   49  history 16 > comandos.txt
